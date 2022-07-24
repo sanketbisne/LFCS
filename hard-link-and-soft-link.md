@@ -13,7 +13,9 @@ The file points to inode
 inode points to all the block of data that we require.
 
 ``` sanketbisne@C02FN48BQ6LR LFCS % stat hard-link-and-soft-link.md 
-16777233 13595557 -rw-r--r-- 1 sanketbisne staff 0 0 "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" 4096 0 0 hard-link-and-soft-link.md ```
+16777233 13595557 -rw-r--r-- 1 sanketbisne staff 0 0 "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" "Jul 23 20:14:42 2022" 4096 0 0 hard-link-and-soft-link.md 
+
+```
 
 Inode= 16777233
 
