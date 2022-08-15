@@ -96,16 +96,18 @@ Lets provide user -> read, write and execute permission , group -> read and exec
 `chmod u+rwx,g+rx,o+rw basic-commands.md`
 
 Output is as follows.
+
 `-rwxr-xrw-   1 sanketbisne  staff   521 15 Aug 12:16 basic-commands.md`
 
 ----------------------------------------------------------------------------------------------------------------
 
 To remove permissions for our user , group and others
+
+```
 user   =    u-  = u-w/u-rw/u-rwx
 group  =    g-  = g-w/g-rw/g-rwx
 others =    o-  = o-w/o-rw/o-rwx
-
-
-We can use stat <file name > to see file permission.
+```
+We can also use `stat < file name >` to see file permission.
 
 
